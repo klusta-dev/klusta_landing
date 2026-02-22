@@ -40,11 +40,11 @@ export function Hero() {
   }, []);
 
   return (
-    <section className="pt-8 pb-16 md:pt-12 md:pb-24 overflow-hidden">
+    <section className="pt-6 pb-12 sm:pt-8 sm:pb-16 md:pt-12 md:pb-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center min-h-[70vh] lg:min-h-0">
-          {/* Left: copy + CTA */}
-          <div className="order-2 lg:order-1 text-center lg:text-left">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-center min-h-0 lg:min-h-0">
+          {/* First on mobile, left on desktop: copy + CTA */}
+          <div className="order-1 text-center lg:text-left">
             <h1
               ref={headlineRef}
               className="font-sans text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] xl:text-6xl text-text-dark font-bold tracking-tight leading-[1.15]"
@@ -78,21 +78,21 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right: smiling dark-skinned woman (Nigeria-representative hero imagery) */}
+          {/* Second on mobile, right on desktop: hero visual */}
           <div
             ref={visualRef}
-            className="order-1 lg:order-2 flex justify-center lg:justify-end"
+            className="order-2 w-full flex justify-center lg:justify-end"
           >
-            <div className="relative w-full max-w-[320px] sm:max-w-[380px] lg:max-w-[420px] aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/5">
+            <div className="relative w-full max-w-full lg:max-w-none rounded-xl sm:rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=840&q=85"
-                alt="Smiling woman — Klusta is for everyone across Nigeria"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width: 640px) 320px, (max-width: 1024px) 380px, 420px"
+                src="/assets/Frame%201523.png"
+                alt="Klusta — find your shortlet across Nigeria"
+                width={1200}
+                height={800}
+                className="w-full h-auto object-contain object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none" />
             </div>
           </div>
         </div>
