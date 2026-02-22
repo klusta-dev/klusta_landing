@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -53,16 +52,7 @@ export function Footer() {
       <div ref={contentRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pb-12 border-b border-gray-200">
           <div className="lg:col-span-5">
-            <Link href="/" className="inline-block">
-              <Image
-                src="/assets/klusta_worded.png"
-                alt="Klusta"
-                width={140}
-                height={36}
-                className="h-9 w-auto object-contain"
-              />
-            </Link>
-            <p className="mt-4 text-text-muted text-sm leading-relaxed max-w-xs">
+            <p className="text-text-muted text-sm leading-relaxed max-w-xs">
               Find and list short-term rentals across Nigeria. Book with confidence, host with ease.
             </p>
             <Link

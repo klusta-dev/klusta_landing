@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const features = [
   {
-    title: "Amplify Insights",
+    title: "Search by location",
     description:
-      "Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.",
+      "Filter by city, area, and amenities. Find shortlets in Lagos, Abuja, Port Harcourt, and across Nigeria.",
     icon: (
       <svg
         width="32"
@@ -33,9 +33,9 @@ const features = [
     ),
   },
   {
-    title: "Control Your Global Presence",
+    title: "Manage your listings",
     description:
-      "Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.",
+      "One dashboard for all your properties. Update availability, rates, and house rules anytime.",
     icon: (
       <svg
         width="32"
@@ -59,9 +59,9 @@ const features = [
     ),
   },
   {
-    title: "Remove Language Barriers",
+    title: "Message and negotiate",
     description:
-      "Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.",
+      "Chat with hosts or guests directly. Agree on rates, check-in times, and special requests before booking.",
     icon: (
       <svg
         width="32"
@@ -87,9 +87,9 @@ const features = [
     ),
   },
   {
-    title: "Visualize Growth",
+    title: "Secure payments",
     description:
-      "Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.",
+      "Pay or get paid with confidence. Transparent pricing and secure transactions for every booking.",
     icon: (
       <svg
         width="32"
@@ -166,11 +166,11 @@ export function HowItWorks() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={headingRef} className="mb-14 md:mb-16">
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-[2.75rem] text-heading-dark font-bold tracking-tight">
-            We&apos;ve cracked the code.
+          <h2 className="font-sans text-3xl sm:text-4xl md:text-[2.75rem] text-heading-dark font-bold tracking-tight">
+            Built for how you travel and host.
           </h2>
           <p className="mt-3 text-body-muted text-base md:text-lg font-normal max-w-xl">
-            Klusta provides real insights, without the data overload.
+            Klusta gives you the tools to find or list shortlets—without the hassle.
           </p>
         </div>
 

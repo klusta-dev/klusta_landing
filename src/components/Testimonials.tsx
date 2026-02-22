@@ -89,7 +89,7 @@ export function Testimonials() {
         <div className="text-center mb-12 md:mb-16">
           <h2
             ref={headingRef}
-            className="font-serif text-3xl sm:text-4xl text-text-dark tracking-tight"
+            className="font-sans text-3xl sm:text-4xl text-text-dark tracking-tight"
           >
             What people say about Klusta
           </h2>
@@ -110,7 +110,7 @@ export function Testimonials() {
               key={t.name}
               className="relative bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100/80 hover:shadow-md hover:border-accent-muted/40 transition-all duration-300"
             >
-              <span className="absolute top-6 right-6 text-accent-muted/60 text-4xl font-serif leading-none select-none">
+              <span className="absolute top-6 right-6 text-accent-muted/60 text-4xl font-sans leading-none select-none">
                 &ldquo;
               </span>
               <p className="text-text-dark leading-relaxed pr-8 relative z-10">

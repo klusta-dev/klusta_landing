@@ -97,7 +97,7 @@ export function DiscoverSection() {
           <div>
             <h2
               ref={headingRef}
-              className="font-serif text-3xl sm:text-4xl text-text-dark tracking-tight"
+              className="font-sans text-3xl sm:text-4xl text-text-dark tracking-tight"
             >
               Discover Nigeria&apos;s finest shortlets.
             </h2>

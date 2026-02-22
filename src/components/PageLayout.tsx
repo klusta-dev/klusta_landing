@@ -9,13 +9,13 @@ export function PageLayout({
   title?: string;
 }) {
   return (
-    <main className="min-h-screen bg-accent-dark">
+    <main className="min-h-screen bg-section-light">
       <Header />
-      <div className="max-w-7xl mx-auto bg-white min-h-screen overflow-visible">
+      <div className="max-w-7xl mx-auto min-h-screen overflow-visible">
         {title && (
           <div className="border-b border-gray-100">
             <div className="max-w-3xl mx-auto px-6 lg:px-10 py-10">
-              <h1 className="font-serif text-3xl sm:text-4xl text-text-dark tracking-tight">
+              <h1 className="font-sans text-3xl sm:text-4xl text-text-dark tracking-tight">
                 {title}
               </h1>
             </div>

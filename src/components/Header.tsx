@@ -66,8 +66,8 @@ export function Header() {
     <header
       className={`sticky top-0 z-50 overflow-hidden transition-all duration-300 ${
         scrolled
-          ? "bg-white/70 backdrop-blur-md shadow-lg shadow-black/5 border-b border-white/20"
-          : "bg-white"
+          ? "bg-section-light/90 backdrop-blur-md shadow-lg shadow-black/5 border-b border-black/5"
+          : "bg-section-light"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 lg:px-10 flex items-center h-14 lg:h-16">

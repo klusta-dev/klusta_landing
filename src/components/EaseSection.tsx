@@ -59,7 +59,7 @@ export function EaseSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div ref={textRef}>
-            <h2 className="font-serif text-3xl sm:text-4xl text-text-dark tracking-tight">
+            <h2 className="font-sans text-3xl sm:text-4xl text-text-dark tracking-tight">
               List your property with ease.
             </h2>
             <p className="mt-4 text-text-muted text-lg leading-relaxed">

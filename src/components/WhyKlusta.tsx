@@ -107,7 +107,7 @@ export function WhyKlusta() {
     <section ref={sectionRef} className="py-10 sm:py-16 md:py-24 overflow-hidden ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={headerRef} className="mb-6 sm:mb-10">
-          <h2 className="font-serif text-2xl min-[375px]:text-3xl sm:text-4xl text-text-dark tracking-tight">
+          <h2 className="font-sans text-2xl min-[375px]:text-3xl sm:text-4xl text-text-dark tracking-tight">
             Why Choose Klusta?
           </h2>
           <p className="mt-1.5 sm:mt-2 text-text-muted text-sm sm:text-base">

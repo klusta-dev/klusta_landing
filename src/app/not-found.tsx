@@ -5,10 +5,10 @@ export default function NotFound() {
   return (
     <PageLayout>
       <div className="max-w-2xl mx-auto px-6 lg:px-10 py-20 text-center">
-        <p className="font-serif text-8xl sm:text-9xl text-accent/20 font-medium leading-none select-none">
+        <p className="font-sans text-8xl sm:text-9xl text-accent/20 font-medium leading-none select-none">
           404
         </p>
-        <h1 className="font-serif text-2xl sm:text-3xl text-text-dark tracking-tight mt-6">
+        <h1 className="font-sans text-2xl sm:text-3xl text-text-dark tracking-tight mt-6">
           Page not found
         </h1>
         <p className="text-text-muted mt-4 max-w-md mx-auto">
