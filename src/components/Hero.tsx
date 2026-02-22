@@ -55,7 +55,7 @@ export function Hero() {
               ref={subRef}
               className="mt-4 sm:mt-6 text-text-muted text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed"
             >
-              Find and book short-term rentals across Nigeria—or list your property and start earning. Negotiate with hosts, transparent pricing, secure payments.
+              Find and book short-term rentals across Nigeria—or list your property and start earning. Payments held in escrow until your stay is complete; negotiate with hosts, resolve issues easily, transparent pricing.
             </p>
             <div ref={ctaRef} className="mt-8 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
               <Link

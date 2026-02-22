@@ -146,12 +146,12 @@ export function Header() {
             >
               Learn More+
             </a>
-            <Link
+            {/* <Link
               href="/login"
               className="hidden lg:inline-flex items-center justify-center px-5 py-2 rounded-lg bg-accent text-black text-sm font-medium hover:bg-accent-dark transition-colors min-w-[80px]"
             >
               Login
-            </Link>
+            </Link> */}
             <button
               type="button"
               onClick={() => setDrawerOpen((o) => !o)}
@@ -214,13 +214,13 @@ export function Header() {
             >
               Learn More+
             </a>
-            <Link
+            {/* <Link
               href="/login"
               onClick={closeDrawer}
               className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-accent text-black text-sm font-medium hover:bg-accent-dark transition-colors"
             >
               Login
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
