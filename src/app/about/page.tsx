@@ -4,7 +4,7 @@ import { PageLayout } from "@/components/PageLayout";
 
 export const metadata: Metadata = {
   title: "About — Klusta",
-  description: "Learn about Klusta and the team building Nigeria's shortlet platform.",
+  description: "Learn about Klusta — Nigeria's trusted shortlet marketplace focused on safety, transparency, and fairness.",
 };
 
 const team = [
@@ -30,19 +30,108 @@ export default function AboutPage() {
     <PageLayout title="About Klusta">
       <div className="max-w-3xl mx-auto px-6 lg:px-10 py-12 space-y-14">
         <section>
-          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Our mission</h2>
-          <p className="text-text-muted leading-relaxed">
-            Klusta is building Nigeria&apos;s trusted marketplace for short-term rentals. We connect people who need a place to stay with hosts who have space to share—whether for a few nights in Lagos, a project stay in Abuja, or a longer shortlet across the country. We believe finding and listing shortlets should be simple, transparent, and secure.
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Brand essence</h2>
+          <p className="text-text-muted leading-relaxed mb-3">
+            Klusta exists to create a safe, trustworthy, and seamless digital marketplace where guests enjoy premium, verified shortlet stays and hosts earn confidently.
           </p>
+          <div className="p-4 rounded-2xl border border-gray-100 bg-beige-light/50">
+            <p className="text-text-dark font-medium">Brand promise</p>
+            <p className="text-text-muted">Reliable stays. Secure payments. Zero stories.</p>
+          </div>
+          <div className="mt-4">
+            <p className="text-text-dark font-medium mb-2">Personality</p>
+            <ul className="text-text-muted leading-relaxed space-y-1 list-disc pl-6">
+              <li>Trustworthy</li>
+              <li>Smart &amp; modern</li>
+              <li>Community‑focused</li>
+              <li>Efficient</li>
+              <li>Transparent</li>
+            </ul>
+          </div>
+          <div className="mt-4">
+            <p className="text-text-dark font-medium mb-2">Values</p>
+            <ul className="text-text-muted leading-relaxed space-y-1 list-disc pl-6">
+              <li>Safety</li>
+              <li>Transparency</li>
+              <li>Fairness</li>
+              <li>Convenience</li>
+              <li>Innovation</li>
+            </ul>
+          </div>
         </section>
 
         <section>
           <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">What we do</h2>
+          <p className="text-text-muted leading-relaxed mb-3">
+            We connect guests to verified shortlets and give hosts a fair, modern way to list, message, negotiate, and get paid safely.
+          </p>
           <ul className="text-text-muted leading-relaxed space-y-2 list-disc pl-6">
-            <li>Help guests discover and book shortlets by city, dates, and budget.</li>
-            <li>Enable hosts to list properties, set rates, and manage bookings.</li>
-            <li>Support negotiation and clear communication between guests and hosts.</li>
-            <li>Provide a secure, easy-to-use platform so both sides can transact with confidence.</li>
+            <li>Discover and book verified shortlets by city, dates, and budget.</li>
+            <li>List properties, set rates, negotiate, and manage bookings in one place.</li>
+            <li>Protect both sides with secure payments and clear, in‑app communication.</li>
+            <li>Keep fees competitive — 5–10% only, with no hidden charges.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Who we serve</h2>
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="p-6 rounded-2xl border border-gray-100 bg-beige-light/50">
+              <p className="text-text-dark font-medium mb-2">Primary</p>
+              <ul className="text-text-muted leading-relaxed space-y-1 list-disc pl-6">
+                <li>Young professionals needing weekend or short stays</li>
+                <li>Travellers within Nigeria</li>
+                <li>Remote workers</li>
+                <li>People seeking verified and safe apartments</li>
+                <li>Apartment owners/hosts with quality shortlets</li>
+              </ul>
+            </div>
+            <div className="p-6 rounded-2xl border border-gray-100 bg-beige-light/50">
+              <p className="text-text-dark font-medium mb-2">Secondary</p>
+              <ul className="text-text-muted leading-relaxed space-y-1 list-disc pl-6">
+                <li>Real estate companies</li>
+                <li>Corporate clients</li>
+                <li>Event attendees needing short stays</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Why Klusta</h2>
+          <ul className="text-text-muted leading-relaxed space-y-2 list-disc pl-6">
+            <li>Reputable payment system — no apartment scams, no payment risks.</li>
+            <li>Verified apartments only — physical inspection before listing.</li>
+            <li>Chat‑to‑negotiate — guests and hosts can negotiate in‑app.</li>
+            <li>Fairness for both sides — hosts get guaranteed payout; guests get peace of mind.</li>
+            <li>Competitive commission — 5–10% only. No hidden charges.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Messaging</h2>
+          <div className="p-6 rounded-2xl border border-gray-100 bg-white">
+            <p className="text-text-dark font-medium mb-2">Primary message</p>
+            <p className="text-text-muted">Book with confidence. Pay with security. Stay with peace of mind.</p>
+          </div>
+          <div className="mt-4">
+            <p className="text-text-dark font-medium mb-2">Supporting messages</p>
+            <ul className="text-text-muted leading-relaxed space-y-2 list-disc pl-6">
+              <li>Every apartment is verified before you see it.</li>
+              <li>Pay once, stress never.</li>
+              <li>You stay, we protect.</li>
+              <li>Hosts get paid safely. Guests get value.</li>
+              <li>No overcharging. No last‑minute cancellations.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h2 className="font-sans font-semibold text-text-dark text-xl mb-4">Taglines</h2>
+          <ul className="text-text-muted leading-relaxed space-y-2 list-disc pl-6">
+            <li>Book Smart. Book Klusta.</li>
+            <li>Your Stay, Guaranteed.</li>
+            <li>Pay Safe. Stay Safe.</li>
           </ul>
         </section>
 
